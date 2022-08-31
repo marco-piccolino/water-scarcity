@@ -61,8 +61,13 @@ jupyter-core==4.11.1
     #   voila
 jupyter-server==1.18.1
     # via
+    #   jupyterlab-citation-manager
     #   jupyterlab-server
     #   voila
+jupyterlab-citation-data==0.1
+    # via jupyterlab-citation-manager
+jupyterlab-citation-manager==0.3.1
+    # via -r requirements.in
 jupyterlab-pygments==0.2.2
     # via nbconvert
 jupyterlab-server==2.15.0
