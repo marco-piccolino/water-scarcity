@@ -61,13 +61,8 @@ jupyter-core==4.11.1
     #   voila
 jupyter-server==1.18.1
     # via
-    #   jupyterlab-citation-manager
     #   jupyterlab-server
     #   voila
-jupyterlab-citation-data==0.1
-    # via jupyterlab-citation-manager
-jupyterlab-citation-manager==0.3.1
-    # via -r requirements.in
 jupyterlab-pygments==0.2.2
     # via nbconvert
 jupyterlab-server==2.15.0
@@ -104,6 +99,8 @@ packaging==21.3
     #   nbconvert
 pandocfilters==1.5.0
     # via nbconvert
+plotly==5.10.0
+    # via -r requirements.in
 prometheus-client==0.14.1
     # via jupyter-server
 ptyprocess==0.7.0
@@ -136,6 +133,8 @@ sniffio==1.2.0
     # via anyio
 soupsieve==2.3.2.post1
     # via beautifulsoup4
+tenacity==8.1.0
+    # via plotly
 terminado==0.15.0
     # via jupyter-server
 tinycss2==1.1.1
